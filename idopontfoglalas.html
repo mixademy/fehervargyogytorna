@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Időpontfoglalás - Fehérvár Gyógytorna</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="glass-container">
+        <header>
+            <div class="logo">
+                <a href="index.html"><img style="width: 50%; height: auto;" src="./logo.png" alt="FEHÉRVÁR GYÓGYTORNA"></a>
+
+            </div>
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <nav>
+                <ul>
+                    <li><a href="index.html">KEZDŐLAP</a></li>
+                    <li><a href="bemutatkozas.html">BEMUTATKOZÁS</a></li>
+                    <li><a href="kepek.html">GALÉRIA</a></li>
+                    <li><a href="arak.html">ÁRAK</a></li>
+                    <li><a href="elerhetoseg.html">KAPCSOLAT</a></li>
+                    <li><a href="idopontfoglalas.html" class="active">IDŐPONTFOGLALÁS</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <div class="title-section">
+                <h2 class="main-title">IDŐPONTFOGLALÁS</h2>
+                <p class="intro-text">Válassza ki az Önnek megfelelő szolgáltatást és időpontot az alábbi naptár
+                    segítségével. A foglalás azonnal rögzítésre kerül a rendszerünkben.</p>
+            </div>
+
+            <div class="layout-grid" style="align-items: start; gap: 3rem;">
+                <div class="left-col">
+                    <h3 class="section-subtitle">Online Bejelentkezés</h3>
+
+                    <div class="glass-panel"
+                        style="padding: 1rem; background: rgba(255, 255, 255, 0.85); overflow: hidden;">
+                        <iframe frameborder="0"
+                            src="https://app.minup.io/embed/zita-bakos/services?canStartPayment=true"
+                            style="width: 100%; height: 590px; max-width: 100%; border-radius: 12px;"></iframe>
+                    </div>
+                </div>
+
+                <div class="right-col">
+                    <h3 class="section-subtitle">Tudnivalók</h3>
+
+                    <div class="info-panels">
+                        <div class="glass-panel"
+                            style="flex-direction: row; align-items: flex-start; gap: 1rem; padding: 1.5rem;">
+                            <div class="card-icon"
+                                style="width: 45px; height: 45px; font-size: 1.2rem; background: var(--glass-bg);">📞
+                            </div>
+                            <div>
+                                <h4 style="color: var(--text-dark); margin-bottom: 0.3rem;">Telefonos Egyeztetés</h4>
+                                <p style="font-size: 0.9rem; color: var(--text-muted); margin-bottom: 0.5rem;">
+                                    Természetesen telefonon is kérhet időpontot munkanapokon 08:00 és 18:00 óra között.
+                                </p>
+                                <p style="font-size: 1.2rem; font-weight: 700; color: var(--primary-blue);">06 20 352
+                                    8435</p>
+                            </div>
+                        </div>
+
+                        <div class="glass-panel"
+                            style="flex-direction: row; align-items: flex-start; gap: 1rem; padding: 1.5rem; border-color: rgba(56, 178, 172, 0.4);">
+                            <div class="card-icon"
+                                style="width: 45px; height: 45px; font-size: 1.2rem; background: var(--glass-bg);">📝
+                            </div>
+                            <div>
+                                <h4 style="color: var(--text-dark); margin-bottom: 0.3rem;">Az első vizit előtt</h4>
+                                <ul
+                                    style="list-style-position: inside; font-size: 0.9rem; color: var(--text-muted); line-height: 1.6; margin-top: 0.5rem;">
+                                    <li>Hozza magával korábbi leleteit (Röntgen, MRI, Zárójelentés).</li>
+                                    <li>Kényelmes, sportos váltóruha javasolt.</li>
+                                    <li>Érkezzen 5-10 perccel korábban az adminisztráció miatt.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="glass-panel"
+                            style="flex-direction: row; align-items: flex-start; gap: 1rem; padding: 1.5rem; background: linear-gradient(135deg, rgba(255,255,255,0.8) 0%, rgba(254, 226, 226, 0.4) 100%);">
+                            <div class="card-icon"
+                                style="width: 45px; height: 45px; font-size: 1.2rem; background: rgba(255,255,255,0.7);">
+                                ⚠️</div>
+                            <div>
+                                <h4 style="color: #991b1b; margin-bottom: 0.3rem;">Lemondási Feltételek</h4>
+                                <p style="font-size: 0.9rem; color: var(--text-muted);">Amennyiben nem tud megjelenni a
+                                    lefoglalt időpontban, kérjük, <strong>legkésőbb 24 órával a kezelés előtt</strong>
+                                    jelezze SMS-ben. 24 órán belüli lemondás esetén a kezelés díjának 100%-a kerül
+                                    felszámításra.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="footer-content">
+                <p>Copyright © 2026 FEHÉRVÁR GYÓGYTORNA</p>
+                <div class="social-icons">
+                    <span>📞 +36 20 352 8435</span>
+                    <span>✉️ fehervargyogytorna@gmail.com</span>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
