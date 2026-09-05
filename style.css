@@ -100,7 +100,7 @@ header {
 }
 
 .logo img {
-    width: 50%;
+    width: 85%;
     height: auto;
 }
 
@@ -445,7 +445,7 @@ footer {
     }
 
     .logo img {
-        width: 80%;
+        width: 100%;
     }
 }
 
